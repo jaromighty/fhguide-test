@@ -14,7 +14,7 @@ const Navbar = class extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="fixed w-full">
                 <nav className="bg-blue-600">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                         <div className="flex items-center justify-between h-16">
