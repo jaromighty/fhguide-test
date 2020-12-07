@@ -15,7 +15,7 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => (
-  <div className="pt-16 mx-auto max-w-7xl px-4 sm:pt-48">
+  <div className="pt-16 mx-auto max-w-7xl px-4 sm:pt-32">
     <div className="text-center">
       <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
         {title}
