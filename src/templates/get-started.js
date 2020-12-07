@@ -21,9 +21,7 @@ export const GetStartedTemplate = ({ title, content, contentComponent }) => {
                         {/* Image column */}
                     </div>
                     <div className="mt-8 lg:mt-0">
-                        <div className="text-base max-w-prose mx-auto lg:max-w-none">
-                            <PageContent content={content} />
-                        </div>
+                        <PageContent className="mt-5 prose text-gray-500 mx-auto lg:max-w-none" content={content} />
                     </div>
                 </div>
             </div>
