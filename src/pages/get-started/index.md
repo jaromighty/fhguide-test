@@ -1,4 +1,6 @@
 ---
+templateKey: get-started
+path: /get-started
 title: Get Started
 ---
 **What would you like to know about your ancestors? What are you curious about?**
