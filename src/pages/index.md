@@ -1,16 +1,15 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: The Family History Guide
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
+heading: Your free learning, research, training, & activities center for family history
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
-  title: Why Kaldi
+  title: Our mission
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    To greatly increase the number of people actively involved in family history
+    worldwide, and to make everyone's family history journey easier, more
+    efficient, and more enjoyable.
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
@@ -18,33 +17,33 @@ description: >-
   anyone.
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/y-tip.jpg
+      title: Easier
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/coffee-gear.png
+        Whether you're just beginning or you've been at it a while, doing family
+        history can be easier. The Family History Guide helps you choose a path
+        you're interested in, with tools to help you find the information you need.
+    - image: /img/y-computer-lab.jpg
+      title: More Efficient
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/tutorials.png
+        Our Learning System helps you learn and do family history efficiently,
+        on FamilySearch, Ancestry, and more. As you research, QUIKLinks help
+        you do record searches easily and efficiently. The Tracker helps you
+        monitor your learning progress to work smarter.
+    - image: /img/y-kids-happy.jpg
+      title: More Enjoyable
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
-      text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+        We put the fun in family history! The Family History Guide has over
+        200 great activities for families, individuals, youth, and kids—plus
+        videos. And if you crave family history learning, check out the Research
+        Knowledgebases.
+    # - image: /img/meeting-space.png
+    #   text: >
+    #     We believe that good coffee has the power to bring people together.
+    #     That’s why we decided to turn a corner of our shop into a cozy meeting
+    #     space where you can hang out with fellow coffee lovers and learn about
+    #     coffee making techniques. All of the artwork on display there is for
+    #     sale. The full price you pay goes to the artist.
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their

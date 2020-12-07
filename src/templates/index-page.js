@@ -15,54 +15,26 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => (
-  <div className="pt-24">
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
-                  </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
-                  </div>
-                </div>
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
-                </div>
-                <Features gridItems={intro.blurbs} />
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
-                  </div>
-                </div>
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
-                  </h3>
-                  <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Read more
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+  <div className="pt-16 mx-auto max-w-7xl px-4 sm:pt-48">
+    <div className="text-center">
+      <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+        {title}
+      </h1>
+      <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+        {heading}
+      </p>
+    </div>
+    <div className="py-16 bg-gray-50 overflow-hidden lg:py-24">
+      <div className="relative">
+        <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+          {mainpitch.title}
+        </h2>
+        <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
+          {mainpitch.description}
+        </p>
       </div>
-    </section>
+    </div>
+    <Features gridItems={intro.blurbs} />
   </div>
 )
 
@@ -129,11 +101,12 @@ export const pageQuery = graphql`
           blurbs {
             image {
               childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
+                fluid {
                   ...GatsbyImageSharpFluid
                 }
               }
             }
+            title
             text
           }
           heading
