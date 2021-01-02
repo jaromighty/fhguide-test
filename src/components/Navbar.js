@@ -256,6 +256,29 @@ const Navbar = () => {
                                                                 </p>
                                                             </div>
                                                         </Link>
+
+                                                        <div className="md:ml-10">
+                                                            <h3 className="text-sm tracking-widest font-medium text-gray-500 uppercase">New Partners</h3>
+                                                            <ul className="mt-3 space-y-2">
+                                                                <li className="text-base truncate">
+                                                                    <Link to="#" className="font-base text-gray-900 hover:text-green-700 transition ease-in-out duration-150">
+                                                                        American Ancestors
+                                                                    </Link>
+                                                                </li>
+
+                                                                <li className="text-base truncate">
+                                                                    <Link to="#" className="font-base text-gray-900 hover:text-green-700 transition ease-in-out duration-150">
+                                                                        Geneanet
+                                                                    </Link>
+                                                                </li>
+
+                                                                <li className="text-base truncate">
+                                                                    <Link to="#" className="font-base text-gray-900 hover:text-green-700 transition ease-in-out duration-150">
+                                                                        Filae
+                                                                    </Link>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
