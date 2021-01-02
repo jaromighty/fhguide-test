@@ -156,7 +156,7 @@ const Navbar = () => {
                                             <div className="absolute -ml-4 pt-2 transform px-2 w-screen max-w-xs sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
                                                 <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                                                     <div className="z-20 relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-6">
-                                                        <Link to="/partners/familysearch" className="-m-3 p-3 flex items-start rounded-lg hover:bg-green-50 transition ease-in-out duration-150">
+                                                        <Link to="/partners/familysearch" className="-m-3 p-3 flex items-start rounded-lg hover:bg-green-100 transition ease-in-out duration-150">
                                                             <svg className="flex-shrink-0 h-6 w-6 text-green-600 mt-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" stroke="none" aria-hidden="true">
                                                                 <g stroke="currentColor" strokeWidth="1" fill="none" fillRule="evenodd">
                                                                     <g>
@@ -188,7 +188,7 @@ const Navbar = () => {
                                                             </div>
                                                         </Link>
 
-                                                        <Link to="#" className="-m-3 p-3 flex items-start rounded-lg hover:bg-green-50 transition ease-in-out duration-150">
+                                                        <Link to="#" className="-m-3 p-3 flex items-start rounded-lg hover:bg-green-100 transition ease-in-out duration-150">
                                                             <svg className="flex-shrink-0 h-6 w-6 text-green-600 mt-1" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20" stroke="currentColor" aria-hidden="true">
                                                                 <g stroke="none" strokeWidth="1" fill="currentColor" fillRule="evenodd">
                                                                     <g>
@@ -211,7 +211,7 @@ const Navbar = () => {
                                                             </div>
                                                         </Link>
 
-                                                        <Link to="#" className="-m-3 p-3 flex items-start rounded-lg hover:bg-green-50 transition ease-in-out duration-150">
+                                                        <Link to="#" className="-m-3 p-3 flex items-start rounded-lg hover:bg-green-100 transition ease-in-out duration-150">
                                                             <svg className="flex-shrink-0 h-6 w-6 text-green-600 mt-1" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20" stroke="currentColor" aria-hidden="true">
                                                                 <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                                                                     <g fill="currentColor">
@@ -234,7 +234,7 @@ const Navbar = () => {
                                                             </div>
                                                         </Link>
 
-                                                        <Link to="#" className="-m-3 p-3 flex items-start rounded-lg hover:bg-green-50 transition ease-in-out duration-150">
+                                                        <Link to="#" className="-m-3 p-3 flex items-start rounded-lg hover:bg-green-100 transition ease-in-out duration-150">
                                                             <svg className="flex-shrink-0 h-6 w-6 text-green-600 mt-1" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20" stroke="currentColor" aria-hidden="true">
                                                                 <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                                                                     <g fill="currentColor">
