@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       colors: {
         cyan: colors.cyan,
+      },
+      maxWidth: {
+        '8xl': '90rem',
       }
     },
   },
