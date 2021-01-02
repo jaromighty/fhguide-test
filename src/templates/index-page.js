@@ -17,16 +17,16 @@ export const IndexPageTemplate = ({
 }) => (
   <div className="pt-16 mx-auto max-w-7xl px-4 sm:pt-32">
     <div className="text-center">
-      <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+      <h1 className="text-4xl tracking-tight font-extrabold text-green-700 sm:text-5xl md:text-6xl">
         {title}
       </h1>
-      <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+      <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-4 md:text-xl md:max-w-3xl">
         {heading}
       </p>
     </div>
     <div className="py-16 bg-gray-50 overflow-hidden lg:py-24">
       <div className="relative">
-        <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+        <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-green-600 sm:text-4xl">
           {mainpitch.title}
         </h2>
         <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
